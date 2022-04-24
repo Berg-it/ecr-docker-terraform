@@ -1,3 +1,3 @@
 resource "aws_ecr_repository" "example" {
-  name = "my-image"
+  name = var.image_name
 }
